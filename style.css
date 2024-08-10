@@ -322,7 +322,11 @@ padding: 10px 50px;
 }
 
 @media screen and (max-width:480px){
-   
+   header{
+    position:fixed;
+    background-color: #000;
+    
+   }
     #menu-icon{
         display: block;
     }
