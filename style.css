@@ -248,7 +248,8 @@ header {
     
    display: flex;
    flex-wrap: nowrap;
-   
+   overflow-x: auto;
+  
 }
 .slider::-webkit-scrollbar{
     width: 0;
@@ -257,4 +258,33 @@ header {
     transform: translateY(-20px);
 
     transition: 0.5s all linear;
+}
+.topic{
+    text-align: center;
+}
+.topic2{
+    text-align: center;
+}
+.in{
+    text-align: center;
+}
+.in input{
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+padding: 10px 50px;
+}
+.bg i{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+.bg i:hover{
+    background-color: #000000;
+    color:red;
+    
 }
